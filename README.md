@@ -41,10 +41,10 @@ cat secret.dec.txt
  
 **Pourquoi ne faut-il pas commiter la clé dans Git ?**   
 
-## 6) Atelier 1 :
+## 5) Atelier 1 :
 Dans cet atelier, la clé Fernet n'est plus générée dans le code mais stockée dans un Repository Secret Github. Ecrivez un nouveau programme **python app/fernet_atelier1.py** qui utilisera une clé Fernet caché dans un Secret GitHub pour encoder et décoder vos fichiers.
 
-## 2) Atelier 2 :
+## 6) Atelier 2 :
 Les bibliothèques qui proposent un système complet, sûr par défaut et simple d’usage comme Fernet de la bibliothèse Cryptographie sont relativement rares. Toutefois, la bibliothèque PyNaCl via l'outil SecretBox est une très bonne alternative. **travail demandé :** Construire une solution de chiffrement/déchiffrement basé sur l'outils SecretBox de la bibliothèque PyNaCl.
 
 
